@@ -5,7 +5,7 @@
 ### Installation
 1. Clone the repository to a directory on your computer: 
 
-    `git clone https://kamilkiljan@bitbucket.org/kamilkiljan/moviesdb.git`
+    `git clone https://github.com/kamilkiljan/moviesdb.git`
     
 2. Create virtual environment:
 
@@ -34,12 +34,15 @@
 ---
 **Alternatively**, you can dockerize the application in the following way:
 
-1. Build the docker image:
+1. Clone the repository to a directory on your computer: 
 
-    `docker build . --tag=moviesdb:0.1
-`
+    `git clone https://github.com/kamilkiljan/moviesdb.git`
 
-2. Run the container using the created image:
+2. Build the docker image:
+
+    `docker build . --tag=moviesdb:0.1`
+
+3. Run the container using the created image:
     
     `docker-compose up --abort-on-container-exit`
 
