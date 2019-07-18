@@ -78,16 +78,10 @@ WSGI_APPLICATION = 'moviesdb.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'deo9u2lbrrbnq2',
-        'USER': 'hhtejgrrfxvdio',
-        'PASSWORD': '619c1c7835bc995905ae09569c8a8b9f1e056265c9240debd2bd185d14095387',
-        'HOST': 'ec2-174-129-29-101.compute-1.amazonaws.com',
-        'PORT': '5432',
-        'CONN_MAX_AGE': 500
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'mydatabase',
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators

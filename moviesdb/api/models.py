@@ -26,7 +26,7 @@ class Movie(models.Model):
     language = models.CharField(max_length=200, blank=True, null=True)
     country = models.CharField(max_length=200, blank=True, null=True)
     awards = models.CharField(max_length=200, blank=True, null=True)
-    poster = models.CharField(max_length=300, blank=True, null=True)
+    poster = models.URLField(blank=True, null=True)
     metascore = models.SmallIntegerField(blank=True, null=True)
     imdb_rating = models.FloatField(blank=True, null=True)
     imdb_votes = models.IntegerField(blank=True, null=True)
@@ -35,7 +35,7 @@ class Movie(models.Model):
     dvd = models.DateField(blank=True, null=True)
     box_office = models.IntegerField(blank=True, null=True)
     production = models.CharField(max_length=200, blank=True, null=True)
-    website = models.CharField(max_length=300, blank=True, null=True)
+    website = models.URLField(blank=True, null=True)
 
     @classmethod
     def create_from_omdb_dict(cls, omdb_dict):
