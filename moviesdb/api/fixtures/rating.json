@@ -1,0 +1,56 @@
+[
+  {
+    "model" : "api.rating",
+    "pk"    : 1,
+    "fields": {
+      "movie" : 1,
+      "source": "Internet Movie Database",
+      "value" : "2.3/10"
+    }
+  },
+  {
+    "model" : "api.rating",
+    "pk"    : 2,
+    "fields": {
+      "movie" : 1,
+      "source": "Rotten Tomatoes",
+      "value" : "20%"
+    }
+  },
+  {
+    "model" : "api.rating",
+    "pk"    : 3,
+    "fields": {
+      "movie" : 2,
+      "source": "Internet Movie Database",
+      "value" : "4.0/10"
+    }
+  },
+  {
+    "model" : "api.rating",
+    "pk"    : 4,
+    "fields": {
+      "movie" : 2,
+      "source": "Rotten Tomatoes",
+      "value" : "67%"
+    }
+  },
+  {
+    "model" : "api.rating",
+    "pk"    : 5,
+    "fields": {
+      "movie" : 3,
+      "source": "Internet Movie Database",
+      "value" : "4.8/10"
+    }
+  },
+  {
+    "model" : "api.rating",
+    "pk"    : 6,
+    "fields": {
+      "movie" : 4,
+      "source": "Internet Movie Database",
+      "value" : "6.6/10"
+    }
+  }
+]

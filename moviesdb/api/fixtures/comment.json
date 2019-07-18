@@ -1,0 +1,47 @@
+[
+  {
+    "model" : "api.comment",
+    "pk"    : 1,
+    "fields": {
+      "movie"       : 1,
+      "comment_body": "Amazing!",
+      "added"       : "2019-07-16T16:00:00Z"
+    }
+  },
+  {
+    "model" : "api.comment",
+    "pk"    : 2,
+    "fields": {
+      "movie"       : 2,
+      "comment_body": "Amazing!",
+      "added"       : "2019-07-16T16:00:00Z"
+    }
+  },
+  {
+    "model" : "api.comment",
+    "pk"    : 3,
+    "fields": {
+      "movie"       : 4,
+      "comment_body": "Amazing!",
+      "added"       : "2019-07-16T16:00:00Z"
+    }
+  },
+  {
+    "model" : "api.comment",
+    "pk"    : 4,
+    "fields": {
+      "movie"       : 4,
+      "comment_body": "Definitely worth watching!",
+      "added"       : "2019-07-16T16:00:00Z"
+    }
+  },
+  {
+    "model" : "api.comment",
+    "pk"    : 5,
+    "fields": {
+      "movie"       : 2,
+      "comment_body": "Definitely worth watching!",
+      "added"       : "2019-07-10T16:00:00Z"
+    }
+  }
+]

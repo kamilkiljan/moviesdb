@@ -1,0 +1,6 @@
+# Database
+db.sqlite3
+
+# Environment and IDe
+venv
+.idea
