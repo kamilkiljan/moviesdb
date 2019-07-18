@@ -2,6 +2,8 @@
 
 **moviesdb** is a simple REST API built using Django web framework.
 
+See the demo running on moviesdb-api.herokuapp.com
+
 ### Installation
 1. Clone the repository to a directory on your computer: 
 

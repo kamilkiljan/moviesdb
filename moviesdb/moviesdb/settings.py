@@ -28,7 +28,7 @@ SECRET_KEY = CSRF_SECRET_KEY
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['0.0.0.0', 'moviesdb-api.herokuapp.com']
 
 
 # Application definition
