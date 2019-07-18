@@ -15,7 +15,6 @@ from .secret_keys import CSRF_SECRET_KEY
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE_ROOT = os.path.dirname(__file__)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
@@ -79,8 +78,13 @@ WSGI_APPLICATION = 'moviesdb.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(SITE_ROOT, 'db.sqlite3')
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'deo9u2lbrrbnq2',
+        'USER': 'hhtejgrrfxvdio',
+        'PASSWORD': '619c1c7835bc995905ae09569c8a8b9f1e056265c9240debd2bd185d14095387',
+        'HOST': 'ec2-174-129-29-101.compute-1.amazonaws.com',
+        'PORT': '5432',
+        'CONN_MAX_AGE': 500
     }
 }
 
