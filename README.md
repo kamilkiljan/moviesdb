@@ -20,9 +20,7 @@
     `pip install -r requirements.txt`
     
 5. Change the directory to moviesdb and prepare and run model-database migrations:
-    
-    `cd moviesdb`
-    
+        
     `python manage.py makemigrations api`
     
     `python manage.py migrate`
