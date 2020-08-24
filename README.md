@@ -36,7 +36,7 @@
 
 1. Clone the repository to a directory on your computer: 
 
-    `git clone https://github.com/kamilkiljan/moviesdb.git`
+    `git clone https://github.com/kamilkiljan/moviesdb.git && cd moviesdb`
 
 2. Build the docker image:
 
